@@ -151,7 +151,7 @@ CHOMP is a trajectory optimization technique that trades off between trajectory 
 
 ## Computer vision
 
-## What is a homography?
+### What is a homography?
 
 A homography is a geometric transformation that maps the points in one image to another image.
 A homography is represented by a 3x3 transformation matrix.
@@ -163,7 +163,7 @@ The transformation matrix encodes rotation (`a`), translation (`b`), and project
 \ c1  c2   1  /
 ```
 
-## What is the difference between affine and projective transformations?
+### What is the difference between affine and projective transformations?
 
 Both affine and projective transformations can be represented by a 3x3 transformation matrix.
 
@@ -176,7 +176,7 @@ They do not preserve length and angle, though.
 
 ![transformations.png](img/transformations.png)
 
-## What are intrinsic camera parameters?
+### What are intrinsic camera parameters?
 
 Intrinsic camera parameters for the pinhole model describe the mapping from image coordinates to rectified image coordinates.
 The transformation is described by a 3x3 transformation matrix:
@@ -191,7 +191,7 @@ Here, `fx` and `fy` are the focal length in pixels, `s` is the skew coefficient,
 
 For more information, see [this post](img/http://ksimek.github.io/2013/08/13/intrinsic/).
 
-## What is gated imaging?
+### What is gated imaging?
 
 Gated imaging involves an active camera.
 That means, the camera is connected to a light source that illuminates the target.
