@@ -37,7 +37,7 @@ If a query value is larger than the median, the left subtree can be discarded.
 Bubble sort repeatedly iterates through the list, compares adjacent elements, and swaps them if they are not ordered.
 The algorithm terminates once there are no swapping operations in an iteration.
 
-### What is heapsort?
+## What is heapsort?
 
 Heapsort is an in-place sorting algorithm.
 It first uses Floyd's algorithm to construct a max-heap and then iteratively performs the following steps:
@@ -68,14 +68,14 @@ They are defined as follows:
 
 ![Graphical representation of the relationships between the different complexity classes](img/p_np.png)
 
-### How does gradient descent work?
+## How does gradient descent work?
 
 In order to find the minumum of a function, gradient descent repeats the following steps until a convergence criterion is fulfilled:
 
 1. Compute the gradient of the function at the current position.
 2. Move in the direction of the gradient.
 
-### How does the Gauss-Newton algorithm work?
+## How does the Gauss-Newton algorithm work?
 
 In order to find the minimum of a function, the Gauss-Newton algorithm repeatedly performs the following steps until convergence:
 
@@ -83,7 +83,7 @@ In order to find the minimum of a function, the Gauss-Newton algorithm repeatedl
 2. Fit a quadratic approximation of the function to the function value and the derivatives.
 3. Set the current position to the minimum of the quadratic function.
 
-### What is the Levenberg-Marquardt algorithm?
+## What is the Levenberg-Marquardt algorithm?
 
 The Levenberg-Marquadt algorithm is an least-squares minimization algorithm that combines gradient descent and the Gauss-Newton algorithm.
 When far from the optimum, the algorithm behaves more like gradient descent.
