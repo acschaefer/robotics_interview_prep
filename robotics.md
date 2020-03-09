@@ -38,7 +38,7 @@ It consists of two steps:
 If the variables are normally distributed and the transitions are linear, the Bayes filter is equal to the Kalman filter.
 The particle filter is a non-parametric approximation of the Bayes filter.
 
-### What is expectation-maximization?
+### What is expectation maximization?
 
 Expectation maximization is a method for maximum-likelihood estimation in presence of latent variables.
 A typical application is to estimate the parameters of a Gaussian mixture model from ungrouped input data.

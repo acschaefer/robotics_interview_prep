@@ -21,7 +21,7 @@ An interval tree is a sorted tree data structure that contains intervals.
 It allows to quickly retrieve all intervals a given point is part of.
 It is constructed as follows:
 
-1. Sort the intervals using their start values.
+1. Sort the intervals according to their start values.
 2. For each interval, compute the median.
 3. Build the tree based on the median vales. 
    All intervals that contain a certain median value are stored in one node. 
@@ -64,7 +64,7 @@ They are defined as follows:
 | P | All problems that can be solved in polynomial time. |
 | NP | All problems that can be verified in polynomial timme. |
 | NP-hard | Problems to which all NP problems can be transformed in polynomial time. |
-| NP-complete | Intersection of NP-hard and NP-complete. |
+| NP-complete | Intersection of NP and NP-hard. |
 
 ![Graphical representation of the relationships between the different complexity classes](img/p_np.png)
 

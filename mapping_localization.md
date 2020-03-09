@@ -25,7 +25,7 @@ The unscented transform is a way to pass a Gaussian probability distribution thr
 It works as follows:
 
 1. Sample sigma points in source domain in and around mean.
-2. Pass the sigma points through nonlinear function.
+2. Pass sigma points through nonlinear function.
 3. Fit Gaussian to sigma points in target domain.
 
 ## How does the UKF work?
