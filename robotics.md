@@ -25,6 +25,10 @@ d^2f / (dx3 dx1)   d^2f / (dx3 dx2)   d^2f / (dx3 dx3)   ...
 ...
 ```
 
+### What is QR decomposition?
+
+### What is Epipolar Geometry?
+
 ## Probabilistics
 
 ### What is the Bayes filter?
